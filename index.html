@@ -30,6 +30,9 @@
             transition: transform 0.3s, opacity 0.3s;
             cursor: pointer;
         }
+        .svg-button.google {
+            height: 60px; /* لتعويض الفرق في ارتفاع زر Google */
+        }
         .svg-button:hover {
             transform: scale(1.1);
             opacity: 0.8;
@@ -47,25 +50,26 @@
     </style>
 </head>
 <body>
+
     <h2>إن هذا التطبيق بإشراف سماحة حجة الإسلام والمسلمين السيد مقتدى الصدر (أعزه الله)</h2>
 
     <h1>تحميل التطبيق</h1>
     <p>يمكنك تحميل تطبيقنا من المتاجر الرسمية باستخدام الروابط أدناه:</p>
 
     <div class="button-container">
-        <!-- زر تحميل من Google Play -->
+        <!-- زر Google Play -->
         <a href="https://play.google.com/store/apps/details?id=co.median.android.zeermn&hl=en" target="_blank">
-            <img class="svg-button" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+            <img class="svg-button google" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play">
             <span class="button-label">تحميل من Google Play</span>
         </a>
 
-        <!-- زر تحميل من Apple App Store -->
+        <!-- زر Apple App Store -->
         <a href="https://apps.apple.com/us/app/%D8%AA%D8%B1%D8%A7%D8%AB-%D8%A7%D9%84%D8%B3%D9%8A%D8%AF-%D8%A7%D9%84%D8%B5%D8%AF%D8%B1/id6745227789?uo=4" target="_blank">
             <img class="svg-button" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
             <span class="button-label">تحميل من App Store</span>
         </a>
 
-        <!-- زر تحميل من Huawei AppGallery -->
+        <!-- زر Huawei AppGallery -->
         <a href="https://appgallery.huawei.com/#/app/C113183335" target="_blank">
             <img class="svg-button" src="appgallery.png" alt="AppGallery">
             <span class="button-label">تحميل من AppGallery</span>
@@ -77,5 +81,6 @@
     <footer>
         <p>هيئة تراث الشهيد السيد محمد الصدر (قدس سره)</p>
     </footer>
+
 </body>
 </html>
